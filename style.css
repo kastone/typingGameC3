@@ -1,3 +1,9 @@
 .error {
     background-color: #EA2027;
 }
+
+span::after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+}
